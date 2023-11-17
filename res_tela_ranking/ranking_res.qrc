@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="imag-rank">
+    <file>5.png</file>
+    <file>icone_padrao.JPG</file>
+  </qresource>
+</RCC>
