@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1640</width>
+    <height>924</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Quiz G-SEPi: Tela de início</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="res_tela_inicial/Tela_inicial_res.qrc">
+    <normaloff>:/imag/icone_padrao.JPG</normaloff>:/imag/icone_padrao.JPG</iconset>
+  </property>
+  <widget class="QLabel" name="Tela_fundo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1661</width>
+     <height>931</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/imag/Quiz G-SEPi.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Botao_start">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>360</y>
+     <width>291</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+border-left-color: rgb(38, 38, 38);
+border-top-color: rgb(38, 38, 38);
+border-color: rgb(38, 38, 38);
+font: 22pt &quot;Noto Sans Lisu&quot;;
+background-color: rgb(38, 38, 38);</string>
+   </property>
+   <property name="text">
+    <string>COMEÇAR</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Botao_instrucoes">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>500</y>
+     <width>441</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(38, 38, 38);
+font: 22pt &quot;Noto Sans Lisu&quot;;
+background-color: rgb(38, 38, 38);</string>
+   </property>
+   <property name="text">
+    <string>INSTRUÇÕES</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Botao_ranking">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>660</y>
+     <width>461</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+border-color: rgb(38, 38, 38);
+font: 22pt &quot;Noto Sans Lisu&quot;;
+background-color: rgb(38, 38, 38);</string>
+   </property>
+   <property name="text">
+    <string>RANKING DE RESULTADOS</string>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res_tela_inicial/Tela_inicial_res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
