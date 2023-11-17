@@ -1,7 +1,0 @@
-<RCC>
-  <qresource prefix="imag">
-    <file>icone_padrao.JPG</file>
-    <file>[png] LOGO PES UFBA horizontal.png</file>
-    <file>Quiz G-SEPi.png</file>
-  </qresource>
-</RCC>
